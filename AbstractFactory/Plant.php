@@ -1,7 +1,7 @@
 <?php
 
 /**
- *  庄稼
+ *  植物
  * Created by PhpStorm.
  * User: AppDays
  * Date: 2017/4/23
@@ -13,7 +13,7 @@ class Plant
 
     /**
      * Plant constructor.
-     * @param $name 庄稼名称
+     * @param $name 植物名称
      */
     public function __construct($name)
     {
@@ -21,10 +21,10 @@ class Plant
     }
 
     /**
-     * Desc: 返回庄稼名称
+     * Desc: 返回植物名称
      * User: AppDays
      * Time: 2017-4-23 14:41:26
-     * @return 庄稼名称
+     * @return 植物名称
      */
     public function showName(){
         echo $this->name.'</br>';

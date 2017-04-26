@@ -30,11 +30,11 @@ abstract class Garden
     }
 
     /**
-     * Desc:  显示各个区域的庄稼名称
+     * Desc:  显示各个区域的植物名称
      * User: AppDays
      * Time: 2017-4-23 14:53:45
      */
-    public function showPlan(){
+    public function showPlant(){
         if($this->showCenter){
             $this->center->showName();
         }
